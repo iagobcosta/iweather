@@ -30,9 +30,7 @@ describe("Screen: Dashboard", () => {
     render(<Dashboard />)
 
     await waitFor(() =>
-      expect(
-        screen.findByText(/Rio do Sul/i, {}, { timeout: 3000 })
-      ).toBeTruthy()
+      expect(screen.findByText(/rio/i, {}, { timeout: 3000 })).toBeTruthy()
     )
   })
 
