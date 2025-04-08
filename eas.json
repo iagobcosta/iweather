@@ -9,12 +9,20 @@
       "android": {
         "distribution": "internal",
         "autoIncrement": "versionCode"
+      },
+      "ios": {
+        "simulator": true,
+        "autoIncrement": "buildNumber"
       }
     },
     "production": {
       "autoIncrement": true,
       "android": {
         "autoIncrement": "versionCode"
+      },
+      "ios": {
+        "image": "latest",
+        "autoIncrement": "buildNumber"
       }
     }
   },
@@ -24,6 +32,10 @@
         "track": "internal",
         "serviceAccountKeyPath": "./google-service-account.json",
         "releaseStatus": "draft"
+      },
+      "ios": {
+        "appleId": "iagobarbosacosta@gmail.com",
+        "ascAppId": "123456789" // apple ID of your app
       }
     }
   }

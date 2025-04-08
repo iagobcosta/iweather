@@ -1,0 +1,3 @@
+Cadastrar chave da apple no site: appleid.apple.com
+
+criar em app-specific-password e depois criar senha
